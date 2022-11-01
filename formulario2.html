@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registar trabajadores</title>
+
+    <style>
+        caption{
+            background-color: limegreen;
+            width: 600px;
+            height: 100px;
+        }
+
+        .tatle{
+            margin-left: 200px;
+        }
+        .tatle2{
+            margin-left: 230px;
+        }
+        .tatle3{
+            margin-left: 152px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>Menu
+            <ul>
+                <li><a href="index.html">Formulario 1</a></li>
+                <li><a href="ejercicio_1.html">Formulario 2</a></li>
+                <li><a href="formulario2.html">Formulario 3</a></li>
+                <li><a href="formulario4.html">Formulario 4</a></li>
+                <li><a href="formulario5.html">Formulario 5</a></li>
+                <li><a href="formulario6.html">Formulario 6</a></li> 
+                <li><a href="formulario7.html">Formulario 7</a></li>
+                <li><a href="formulario8.html">Formulario 8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <caption>Registar Usuario</caption><br>
+        <label>Rut:</label>
+        <input type="text" name="rut" placeholder="Sin Puntos ni guion" class="tatle2"><br>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" class="tatle"><br>
+        <label>Apellio Paterno:</label>
+        <input type="text" name="apellidoP" class="tatle3"><br>
+        <label>Apellio Materno</label>
+        <input type="text" name="apellidoM"><br>
+        <label>Sexo:</label>
+        <input type="radio" name="masculino">
+        <label>Masculino</label>
+        <input type="radio" name="femenino">
+        <label>Femenino</label><br>
+        <label>Nivel Estudio:</label>
+        <input type="radio" name="no tiene">
+        <label>No Tiene</label><br>
+        <input type="radio" name="tecnico">
+        <label>Técnico</label><br>
+       <input type="radio" name="universitario">
+       <label>Universitario</label><br>
+       <label>Ciudad de Nacimiento</label>
+       <select name="Pais">
+        <option value="nicaragua">Nicaragua</option>
+        <option value="el salvado">El Salvador</option>
+        <option value="guatemala">Guatemala</option>
+        <option value="Honduras">Honduras</option>
+       </select><br>
+       <label>Curriculum</label>
+       <input type="file" name="curriculum"><br>
+       <label>Foto</label>
+       <input type="file" name="foto"><br>
+       <button>Registrar Trabajador</button>
+    </form>
+</body>
+</html>
